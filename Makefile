@@ -38,7 +38,7 @@ install-sdk:
 	fi;
 
 	@echo "Install SDK package"
-	mvn clean install -U -DskipTests
+	mvn clean install -DskipTests
 	@echo "You should see BUILD SUCCESS"
 
 # Download .jar from CI_URL$$CKB_SDK_JAVA_VERSION
@@ -73,7 +73,8 @@ test:
 	@echo "[test] run regression tests"
 	make update
 	# run tests and generate test report
-	mvn clean test
+	# mvn clean test
+	mvn test -Dtest=org.nervos.ckb.cliTest.HelpComLineTest
 
 test-smoke:
 	@echo "[test] run smoke tests, to ensure the most important functions work"

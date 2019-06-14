@@ -41,7 +41,7 @@ public class HelpComLineTest extends TestBase {
   public Object[][] positiveData() {
     return new Object[][]{
         {"ckb help", "Nervos CKB - The Common Knowledge Base"},
-        {"ckb", "Nervos CKB - The Common Knowledge Base"}
+        {"ckb error", "Nervos CKB - The Common Knowledge Base"}
     };
   }
 
