@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Surefire test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.397">
+  <properties />
+  
+  
+            <testcase name="testHelpComLinePositive" time="0.122" classname="org.nervos.ckb.cliTest.HelpComLineTest" />
+                <testcase name="testHelpComLineNegative" time="0.181" classname="org.nervos.ckb.cliTest.HelpComLineTest" />
+                <testcase name="testHelpComLinePositive" time="0.094" classname="org.nervos.ckb.cliTest.HelpComLineTest" />
+      
+</testsuite>
